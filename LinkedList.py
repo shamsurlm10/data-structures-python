@@ -33,7 +33,7 @@ class LinkedList:
         while node.next != None:
             node = node.next
         node.next = new_node
-        self.count += 1
+        self.count = self.count+1
 
     def insert(self, position, item) -> None:
         """
